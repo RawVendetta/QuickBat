@@ -3,6 +3,6 @@ Quickbat is a python3 script that makes a simple reverse shell quickly with mini
 <strong><head3><br>Usage:</stong></head3><br>Run the script by typing `python3 QuickBat.py`
 <br>Then all you have to do is `specify the name` of the files to be for the reverse shell, as well as the `port` you want to listen on. The script will do the rest.
 <br><br>How to install?<br>`git clone https://github.com/RawVendetta/QuickBat/`
-<br><br>This script is really easy to use and usaully needs no dependancies to use it.
 
+<br><br>This script is really easy to use and usaully needs no dependancies to use it. If there are issues, below will solve them.<br>
 <br><strong><head3>Dependancies issue fix:</strong></head3><br>Only use these commands if running the script on linux doesn't work first try. This will fix what is missing.<br>`sudo apt-get install iproute2`<br>`curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall`
